@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formularz Kontaktowy</title>
+  <link rel="stylesheet" href="kontakt.css" />
+</head>
+<body>
+  <header>
+    
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="index.html">O Nas</a></li>
+        <li><a href="kontakt.html">Formularz Kontaktowy</a></li>
+        <li><a href="#">Inspiracje (Pinterest)</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Skontaktuj się z nami</h2>
+      <div class="kontakt-box">
+      
+        <form class="kontakt-form">
+          <table>
+            <tr>
+              <td><label for="name">Twoje Imię:</label></td>
+              <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+              <td><label for="email">Twój E-mail:</label></td>
+              <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+              <td><label for="subject">Temat wiadomości:</label></td>
+              <td><input type="text" id="subject" name="subject"></td>
+            </tr>
+            <tr>
+              <td><label for="type">Typ wydarzenia (opcjonalnie):</label></td>
+              <td>
+                <select id="type" name="type">
+                  <option>-- Wybierz --</option>
+                  <option>Wesele</option>
+                  <option>Impreza firmowa</option>
+                  <option>Urodziny</option>
+                  <option>Inne</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="message">Treść wiadomości:</label></td>
+              <td><textarea id="message" name="message" rows="4"></textarea></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><button type="submit">Wyślij Wiadomość</button></td>
+            </tr>
+          </table>
+        </form>
+
+       
+        <div class="kontakt-info">
+          <strong>Dane Kontaktowe</strong><br><br>
+          <strong>Imprezy Marzeń Sp. z o.o.</strong><br>
+          ul. Kreatywna 15<br>
+          00-001 Warszawa<br><br>
+
+          Telefon: <a href="tel:+48123456789">+48 123 456 789</a><br>
+          E-mail: <a href="mailto:biuro@imprezymarzen.pl">biuro@imprezymarzen.pl</a><br><br>
+
+          <em>Jesteśmy do Twojej dyspozycji od poniedziałku do piątku w godzinach 9:00 - 17:00.</em>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    Copyright © Imprezy Marzeń. Projekt i wykonanie: 12345678901
+  </footer>
+</body>
+</html>
